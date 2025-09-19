@@ -1,52 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-mx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ubicacion</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Ubicación de la Casa de Adobe - Ciudad Juárez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body style="background: #FEF6FB;" class="container-fluid">
-    <div class="container">
-        <header>
-        <nav class="navbar navbar-expand-lg" style="background: #D77FA1;" class="container-fluid">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Más</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body class="container-fluid" style="background: #FEF6FB;">
+
+<header>
+    <nav class="navbar navbar-expand-lg container-fluid" style="background: #D77FA1;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Casa de Adobe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="#ubicacion">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#descripcion">Descripción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                 </ul>
-                </div>
             </div>
-            </nav>
-            <h1 style="background: #E6B2C6;" class="container-fluid text-center">¿Donde se ubica?</h1>
-        </header>
-    </div>
-    <div class="text-center">
-    <h2>Ubicación</h2>
-    <p>Casa de Adobe, Canutillo, Ladillera de juarez, Ciudad Juárez, Chih., México</p>
-    </div>
-    <div class="container text-center mt-4">
-    <a href="https://maps.app.goo.gl/QS2UKJiF1Coh6ejRA" target="_blank">
-        <img src="img/ubi.png" alt="Casa de adobe" class="img-fluid rounded shadow">
-    </a>
-    <p><u>click en la imagen para ver la ubicación</u></p>
-    <h3>Descripción:</h3>
-    <p>A unos siete kilómetros de la Plaza de Armas se localiza este edificio, que es réplica exacta de lo que fue la sede de la Presidencia Provisional de Francisco I. Madero en la Revolución. Se encuentra justamente en el sitio donde estuvo la Casa de Adobe original. Aquella primera casa se conocía en 1911 como el Rancho de las Flores.</p>
-    <p>La Casa de Adobe se sitúa a unos dos kilómetros al noreste de Juárez. Para llegar hasta ahí se debe pasar por una de las zonas más pobres de la frontera, luego atravesar por algunas calles sin pavimento, donde incluso en estos días se ha formado un arroyo de aguas negras y la hediondez es insoportable.</p>
-    <img src="img/casa2.jpg" class="img-fluid" alt="Casa de adobe">
-    <p>Hoy, esta zona de Ciudad Juárez está deshabitada, pero la Casa de Adobe está ahí para recordar los pasajes históricos que se escribieron con sangre de los revolucionarios, pero también para que no se olvide que mucha de esa historia, al igual que el teléfono de Francisco I. Madero, primero viraba hacía Estados Unidos y luego ya se asentaba en suelo mexicano.</p>
-    <h3>Algunas imagenes del lugar:</h3>
-    <img src="img/estatua.jpg" class="img-fluid" alt="Piramide">
-    <img src="img/estatua2.jpg" class="img-fluid" alt="Estatua">
-    <img src="img/limite.jpg" class="img-fluid" alt="Frontera de mexico con estados unidos" >
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </div>
+    </nav>
+    <h1 class="text-center bg-pink text-white py-3" style="background: #E6B2C6;">Ubicación de la Casa de Adobe</h1>
+</header>
+
+<main class="container mt-4">
+
+    <section id="ubicacion" class="text-center">
+        <h2>Ubicación</h2>
+        <p>Casa de Adobe, Canutillo, Ladrillera de Juárez, Ciudad Juárez, Chihuahua, México</p>
+        <a href="https://maps.app.goo.gl/QS2UKJiF1Coh6ejRA" target="_blank">
+            <img src="img/ubi.png" alt="Mapa con la ubicación exacta de la Casa de Adobe" class="img-fluid rounded shadow mb-2">
+        </a>
+        <p><u>Haz clic en la imagen para ver la ubicación en Google Maps</u></p>
+    </section>
+
+    <section id="descripcion" class="mt-4">
+        <h2>Descripción</h2>
+        <p>La Casa de Adobe se encuentra aproximadamente a siete kilómetros de la Plaza de Armas de Ciudad Juárez. Es una réplica exacta del edificio que sirvió como Presidencia Provisional de Francisco I. Madero durante la Revolución, construido en el sitio de la casa original de 1911, conocida como el Rancho de las Flores.</p>
+        <p>Para llegar, se atraviesan zonas con calles sin pavimento y terrenos difíciles, lo que refleja la geografía histórica de la frontera. El lugar conserva la historia de los revolucionarios y muestra cómo las comunicaciones, como el teléfono de Madero, operaban entre México y Estados Unidos.</p>
+        <img src="img/casa2.jpg" class="img-fluid rounded shadow mb-3" alt="Vista de la Casa de Adobe desde el exterior">
+    </section>
+
+    <section id="galeria" class="mt-4">
+        <h2>Galería de imágenes</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <img src="img/estatua.jpg" class="img-fluid rounded shadow" alt="Estatua histórica ubicada en la Casa de Adobe">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/estatua2.jpg" class="img-fluid rounded shadow" alt="Otra vista de la estatua dentro del recinto">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/limite.jpg" class="img-fluid rounded shadow" alt="Vista del límite fronterizo cercano a la Casa de Adobe">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="text-center mt-5 py-3" style="background: #D77FA1;">
+    <p>© 2025 Casa de Adobe - Ciudad Juárez, Chihuahua, México</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
