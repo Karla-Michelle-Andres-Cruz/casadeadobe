@@ -49,17 +49,32 @@
 
     <section id="galeria" class="mt-4">
         <h2>Galería de imágenes</h2>
-        <div class="row text-center">
-            <div class="col-md-4 mb-3">
-                <img src="img/estatua.jpg" class="img-fluid rounded shadow" alt="Estatua histórica ubicada en la Casa de Adobe">
-            </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/estatua2.jpg" class="img-fluid rounded shadow" alt="Otra vista de la estatua dentro del recinto">
-            </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/limite.jpg" class="img-fluid rounded shadow" alt="Vista del límite fronterizo cercano a la Casa de Adobe">
-            </div>
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/piraminde.png" class="d-block w-100" alt="Estatua histórica ubicada en la Casa de Adobe" >
+    </div>
+    <div class="carousel-item">
+        <img src="img/estatua.jpg" class="d-block w-100" alt="Otra vista de la estatua dentro del recinto" >
+    </div>
+    <div class="carousel-item">
+        <img src="img/placa.png" class="d-block w-100" alt="Placa de la casa de adobe reconstruida" >
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
     </section>
 </main>
 <footer class="text-center mt-5 py-3" style="background: #D77FA1;">
